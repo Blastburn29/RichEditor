@@ -1,0 +1,32 @@
+* {
+    font-family: 'Arial', sans-serif;
+
+}
+
+.editor {
+    border: 2px solid #000;
+    /* background-color: #000; */
+    min-height: 100px;
+    padding: 10px;
+}
+
+.headings {
+    display: grid;
+    grid-template-columns: 90% 10%;
+
+}
+
+.headings button {
+    align-self: center;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    height: 30px;;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
